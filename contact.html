@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Information</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="homepage.html">
+                <img src="logo.png" alt="Logo">
+                </a>
+                      </div>
+          <nav>
+            <ul class="navbar">
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="themepage.html">Themes</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+      </header>
+
+  <main>
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p>For questions or inquiries about the authors, reach out to this E-Mail:</p>
+      <ul>
+        <li>ffranekf@gmail.com</li>
+      </ul>
+      <div class="author-info">
+        <img src="author1.png" alt="Author 1">
+        <p class="author">Richard Sigmund</p>
+        <img src="author2.jpeg" alt="Author 1">
+        <p class="author">Jameth D. Thirdeth</p>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST">
+        <label for="name">Subject:</label><br>
+        <input type="text" id="name" name="name" required>
+    </form>
+
+<form>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+    </form>
+
+    <form>
+        <label for="message">Request or Inquiry:</label><br>
+        <select id="message" name="message" required>
+          <option value="" disabled selected>Select an option</option>
+          <option value="inquiry">Inquiry</option>
+          <option value="question">Question</option>
+          <option value="request">Request</option>
+        </select>
+      </form>
+      
+<form>
+        <label for="message">Subject:</label><br>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Blox Fruits. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
